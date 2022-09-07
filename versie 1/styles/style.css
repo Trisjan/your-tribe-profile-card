@@ -15,7 +15,7 @@ body {
   color:#10214e;
 }
 
-article {
+.front {
   width:50vw;
   max-width: 35em;
   min-width:30em;
@@ -27,8 +27,14 @@ article {
   background: linear-gradient(0deg, rgb(255, 0, 0) 40%, #ff9900 100%);
   box-shadow:0 0 20px 20px rgba(0,0,0,.1);
   border-radius:1rem;
-  position: relative;
+  /* position: relative; */
   transition:.25s;
+  z-index: 1;
+  transform: rotateX(0deg) rotateY(0);
+}
+
+.bussiness-card.flip .front{
+  transform: rotateX(180deg) rotateY(180deg);
 }
 
 header {
@@ -171,3 +177,18 @@ body.expand button svg:nth-of-type(2) {
 body.expand img {
   width:15em;
 } */
+
+/* BACK */
+
+.back {
+  margin-top: -300px;
+  width: 560px;
+  background-color: #000;
+  color: #fff;
+  transform: rotateX(-180deg) rotateY(-180deg);
+  z-index: 0;
+}
+
+.bussiness-card.flip .back {
+  transform: rotateX(0deg) rotateY(0deg);
+}
