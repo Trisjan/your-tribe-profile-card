@@ -52,7 +52,7 @@ h1 {
   /* margin:2rem 0 1rem; */
   color: rgb(255, 238, 0);
   padding-left: 280px;
-  padding-bottom: 80px;
+  padding-bottom: 70px;
 }
 
 button {
@@ -89,6 +89,12 @@ button svg:nth-of-type(2) {
 }
 
 img {
+  height: 20px; 
+  width: 20px;
+}
+
+.me {
+  height: 10em;
   width:10em;
   border-radius:10em;
   border:5px solid #fff;
@@ -96,8 +102,9 @@ img {
   position:absolute;
   top:2rem;
   left:2rem;
-  transition:.25s .15s;
+  /* transition:.25s .15s; */
 }
+
 
 dl {
   width:100%;
@@ -155,7 +162,7 @@ article > p {
   font-size:1.15em;
 } */
 
-body.expand article {
+/* body.expand article {
   transform: rotateY(180deg);
   transition: 1s;
 }
@@ -168,7 +175,7 @@ body.expand button svg:first-of-type {
 body.expand button svg:nth-of-type(2) {
   opacity:1;
   transition-delay:.25s;
-}
+} */
 
 /* body.expand dd {
   font-size: 1.75em;
@@ -179,7 +186,7 @@ body.expand img {
 } */
 
 /* BACK */
-
+/* 
 .back {
   margin-top: -300px;
   width: 560px;
@@ -191,4 +198,4 @@ body.expand img {
 
 .bussiness-card.flip .back {
   transform: rotateX(0deg) rotateY(0deg);
-}
+} */
