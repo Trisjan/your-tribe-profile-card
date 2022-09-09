@@ -6,7 +6,7 @@
 }
 
 body {
-	background-color: #28223F;
+	background-color: #303030;
 	font-family: Montserrat, sans-serif;
 	
 	display: flex;
@@ -20,6 +20,11 @@ body {
 
 h1{
   font-family: 'Sriracha', arial, sans-serif;
+}
+
+h1:hover {
+	color: olive;
+	transition: 1s;
 }
 
 h3 {
@@ -37,9 +42,9 @@ p {
 }
 
 .card-container {
-	background-color: #231E39;
+	background-color: #925800;
 	border-radius: 5px;
-	box-shadow: 0px 10px 20px -10px rgba(0,0,0,0.75);
+	box-shadow: 0px 10px 20px -10px #744601;
 	color: #B3B8CD;
 	padding-top: 30px;
 	position: relative;
@@ -49,7 +54,7 @@ p {
 }
 
 .card-container .pro {
-	color: #231E39;
+	color: #925800;
 	background-color: #FEBB0B;
 	border-radius: 3px;
 	font-size: 14px;
@@ -61,7 +66,7 @@ p {
 }
 
 .card-container .round {
-	border: 1px solid #03BFCB;
+	border: 1px solid #000000;
 	border-radius: 50%;
 	padding: 7px;
 }
@@ -70,7 +75,7 @@ button.primary {
 	background-color: #03BFCB;
 	border: 1px solid #03BFCB;
 	border-radius: 3px;
-	color: #231E39;
+	color: #925800;
 	font-family: Montserrat, sans-serif;
 	font-weight: 500;
 	padding: 10px 25px;
@@ -82,7 +87,7 @@ button.primary.ghost {
 }
 
 .skills {
-	background-color: #1F1A36;
+	background-color: #7a4900;
 	text-align: left;
 	padding: 15px;
 	margin-top: 30px;
@@ -95,7 +100,7 @@ button.primary.ghost {
 }
 
 .skills ul li {
-	border: 1px solid #2D2747;
+	border: 1px solid #444444;
 	border-radius: 2px;
 	display: inline-block;
 	font-size: 12px;
@@ -104,7 +109,7 @@ button.primary.ghost {
 }
 
 footer {
-    background-color: #222;
+    background-color: #925800;
     color: #fff;
     font-size: 14px;
     bottom: 0;
