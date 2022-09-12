@@ -6,7 +6,7 @@ Dit is de visitekaartje van Trisjan Mustamu
 Doormiddel van een template kregen wij de opdracht om een visitekaartje te maken en ontwerpen. Dit heb ik gerealiseerd doormiddel van de development lifecycle waar we college over kregen.
 
 ### Analyseren
-Eerst heb ik geanalyseerd wat er van mij gevraagd werd. Dat was dus een visitekaartje aanpassen en het je eigen maken.
+Eerst heb ik geanalyseerd wat er van mij gevraagd werd. Dat was dus een visitekaartje template aanpassen en het je eigen maken.
 
 ### Ontwerpen
 Na het analyseren van de opdracht ben ik begonnen met schetsen in mijn boekje.
