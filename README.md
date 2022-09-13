@@ -1,6 +1,8 @@
 # Visitekaartje Trisjan Mustamu
 
-Dit is de visitekaartje van Trisjan Mustamu
+Dit is het visitekaartje van Trisjan Mustamu
+Versie 1: trisjan.student.fdnd.nl/versie-1
+Versie 2: trisjan.student.fdnd.nl/versie-2
 
 ## De opdracht
 Doormiddel van een template kregen wij de opdracht om een visitekaartje te maken en ontwerpen. Dit heb ik gerealiseerd doormiddel van de development lifecycle waar we college over kregen.
